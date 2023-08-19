@@ -80,7 +80,7 @@ CBLUE="${CSI}1;36m"
 CEND="${CSI}0m"
 
 if [ -z "$INTERVAL" ]; then
-  INTERVAL=20
+  INTERVAL=1
 fi
 
 if [ -z "$LOG_FILE" ]; then
